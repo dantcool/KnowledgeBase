@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "b9a3da377cb3cac1",
+    "type": "split",
+    "children": [
+      {
+        "id": "227b0e056faf4e52",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7cb545a2ea777430",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calculus/Limits/Tangent Lines and Rates of change.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tangent Lines and Rates of change"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3af4ada556ddf7da",
+    "type": "split",
+    "children": [
+      {
+        "id": "50a4dd28fde9b14e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4445dfeceb1ce83",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "aae66101e1fe00bf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "dfded1d6d033b70a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "684ddeaf0f2316f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "abd40fd59c7dad5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a41c724e91a8763",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Calculus/Limits/Tangent Lines and Rates of change.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Tangent Lines and Rates of change"
+            }
+          },
+          {
+            "id": "331a24fd132582f4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Calculus/Limits/Tangent Lines and Rates of change.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Tangent Lines and Rates of change"
+            }
+          },
+          {
+            "id": "a9c282453fb77847",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "df7e13c4f4dce3c7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d23d7d0361e5782f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Calculus/Limits/Tangent Lines and Rates of change.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Tangent Lines and Rates of change"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c4445dfeceb1ce83",
+  "lastOpenFiles": [
+    "Git",
+    "Calculus/Limits/The Limit.md",
+    "Calculus/Limits/One-Sided Limits.md",
+    "Calculus/Limits/Tangent Lines and Rates of change.md",
+    "Pasted image 20260512180932.png",
+    "Stuff/Pasted image 20260512180102.png",
+    "Stuff/Pasted image 20260512162806.png",
+    "Pasted image 20260512181941.png",
+    "Untitled.base",
+    "Untitled.md",
+    "Stuff",
+    "Calculus/Limits",
+    "Welcome.md",
+    "Calculus"
+  ]
+}
