@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "b76aa8d2f690da08",
+        "id": "0144ad58fa94cf26",
         "type": "tabs",
         "children": [
           {
-            "id": "7f76372c3c885eab",
+            "id": "7b781a0e33bf2122",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dante/Math/Calculus/pauls online notes (my notes tho)/Limits/3.One-Sided Limits.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "3.One-Sided Limits"
-            }
-          },
-          {
-            "id": "164539f6ba10f227",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Phytagorean theorem.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Phytagorean theorem"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,14 +176,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "164539f6ba10f227",
+  "active": "7b781a0e33bf2122",
   "lastOpenFiles": [
-    "Dante/Math/Calculus/pauls online notes (my notes tho)/Limits/3.One-Sided Limits.md",
-    "Phytagorean theorem.md",
-    "Dante/Math/Trigonometry",
+    "Reverse Engineering.md",
+    "Metal Arms.md",
+    "Dante/Math/Trigonometry/Convert radians into angle.md",
+    "Dante/Math/Trigonometry/Secant SEC.md",
+    "Dante/Math/Trigonometry/CoSecant CSC.md",
+    "Dante/Math/Trigonometry/SOH CAH TOA.md",
+    "Dante/Math/Trigonometry/Phytagorean theorem.md",
+    "Dante/Math/Trigonometry/CoTangent COT.md",
+    "Dante/Math/Trigonometry/ASTC (All Sturdent Take Calculus).md",
+    "Dante/Math/Calculus/Squeeze theorem.md",
+    "Dante/Math/Calculus/pauls online notes (my notes tho)/Limits/5.Computing Limits.md",
     "Dante/Math/Calculus/pauls online notes (my notes tho)/Limits/Limit topics.md",
+    "Dante/Math/Calculus/pauls online notes (my notes tho)/Limits/4.Limit properties.md",
+    "Dante/Math/Calculus/pauls online notes (my notes tho)/Limits/3.One-Sided Limits.md",
     "Dante/Math/Calculus/pauls online notes (my notes tho)/Limits/2.The Limit.md",
     "Dante/Math/Calculus/pauls online notes (my notes tho)/Limits/1.Tangent Lines and Rates of change.md",
+    "TvShows/The sorpranos.md",
+    "TvShows",
+    "Dante/Math/Trigonometry",
     "Dante/Math",
     "Dante/Math/Algebra",
     "Dante/Math/Calculus/pauls online notes (my notes tho)",
