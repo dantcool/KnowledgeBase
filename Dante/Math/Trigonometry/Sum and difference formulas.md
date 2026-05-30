@@ -1,0 +1,6 @@
+- sin(A + B) =sinA cosB + cosA sinB
+- sin(A - B) = sinA cosB - cosA sinB
+- cos(A + B) = cosA CosB - sinA sinB
+- cos(A - B) = cosA cosB + sinA sinB
+- tan(A + B) = (tanA + tanB) / (1+ tanA tanB)
+- tan(A - B) = (tanA - tanB) / (1+ tanA tanB)
