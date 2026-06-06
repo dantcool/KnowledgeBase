@@ -25,10 +25,14 @@
             "id": "b663393fa7400365",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Dante/Math/Calculus/Limts/limits of trig functions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "limits of trig functions"
             }
           }
         ],
@@ -193,13 +197,22 @@
   },
   "active": "208ae99ab8c3ae4e",
   "lastOpenFiles": [
+    "Dante/Math/Calculus/finding the equation of the line tangent to the graph.md",
+    "Dante/Math/Calculus/Limts/Finding the derivative using the limit definition.md",
+    "Dante/Math/Calculus/Derivatives/Derivatives.md",
+    "Dante/Math/Calculus/Derivatives",
+    "Dante/Math/Algebra/Logarithims.md",
+    "Dante/Math/Quadratic functions.md",
+    "Dante/Math/Functions and Graphs.md",
+    "Dante/Math/Algebra/Quadratic functions.md",
+    "Dante/Math/Trigonometry/Unit Circle.md",
+    "Dante/Math/Calculus/Calculus.md",
     "Dante/Stuff/Pasted image 20260530084911.png",
     "Dante/Stuff/Pasted image 20260530084440.png",
     "Dante/Stuff/Pasted image 20260530083927.png",
     "Dante/Stuff/Pasted image 20260530083517.png",
     "Dante/Stuff/Pasted image 20260530083008.png",
     "Dante/Stuff/Pasted image 20260530082347.png",
-    "Dante/Math/Trigonometry/Unit Circle.md",
     "Dante/Math/Trigonometry/Sum and difference formulas.md",
     "Dante/Math/Calculus/Limts/Limit of radical functions.md",
     "Dante/Math/Calculus/Limts/limits of trig functions.md",
@@ -218,14 +231,7 @@
     "Dante/Math/Algebra/Absolute value inequalities.md",
     "Dante/College/Esports Club.md",
     "Dante/College/Cyber raiders 21726.md",
-    "Dante/Math/Functions and Graphs.md",
     "Dante/Math/Algebra",
-    "Dante/Kali/Nmap.md",
-    "Dante/Kali/Tools.md",
-    "Dante/Sum/Untitled.md",
-    "Dante/Sum/Manga.md",
-    "Dante/Sum/Hunter X Hunter(manga).md",
-    "Dante/Sum/Games.md",
     "Dante/Math/Calculus/Calculus Class",
     "Dante/College/Candidates",
     "Dante/College",
@@ -233,7 +239,6 @@
     "Dante/Music",
     "Dante/Movies",
     "Dante/Kali",
-    "TvShows",
     "Dante/Stuff/Pasted image 20260512162806.png"
   ]
 }
