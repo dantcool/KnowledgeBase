@@ -1,4 +1,4 @@
-TOOL KITS 
+L KITS 
 
 Since you cant read raw compiled binary code (.exe, .elf) with a normal text editor you need some tools to look under the hood 
 

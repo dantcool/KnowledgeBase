@@ -1,3 +1,8 @@
+
+Optimization means finding the maximum or minimum values.
+
+
+
  RECIPE 
  1.Draw a picture and label variable
  2.Write the primary equation 
