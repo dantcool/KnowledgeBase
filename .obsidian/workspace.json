@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "932637776ae5e1d7",
+            "id": "da04c1f9d9f381b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dante/Math/Calculus/Calculus.md",
+                "file": "Multiplying a vector by a scalar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Calculus"
-            }
-          },
-          {
-            "id": "b663393fa7400365",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Crack mes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Crack mes"
-            }
-          },
-          {
-            "id": "196bdc8576d61430",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dante/Crack mes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Crack mes"
+              "title": "Multiplying a vector by a scalar"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -209,17 +182,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "196bdc8576d61430",
+  "active": "da04c1f9d9f381b6",
   "lastOpenFiles": [
+    "Dante/Math/Linear Algebra/Adding vectors algebriacally and graphically.md",
+    "Multiplying a vector by a scalar.md",
+    "Dante/Math/Linear Algebra/3 Dimension.md",
+    "Dante/Math/Linear Algebra/2 Dimension.md",
+    "Dante/Math/Linear Algebra/Vector.md",
+    "Dante/Flush DNS cache on arch linux.md",
+    "Dante/Math/Linear Algebra",
+    "Dante/Crack mes.md",
     "Dante/College/Cyber raiders 21726.md",
     "Dante/Kali/Nmap.md",
     "Dante/Kali/Tools.md",
     "Dante/Setting up KVM(Kernel-based Virtual Machine) on arch along with QEMU.md",
-    "Dante/Crack mes.md",
     "Dante/Math/Calculus/Limts/limits of trig functions.md",
     "Dante/Make File executable Arch.md",
     "Dante/Linux Commands.md",
-    "Dante/Flush DNS cache on arch linux.md",
     "Dante/Math/Trigonometry/Simplify Square root expression.md",
     "Dante/Math/Calculus/Optimization.md",
     "Dante/Math/Calculus/Finding increasing, decreasing intervals.md",
@@ -233,18 +212,13 @@
     "Dante/Math/Functions and Graphs.md",
     "Dante/Math/Algebra/Quadratic functions.md",
     "Dante/Math/Trigonometry/Unit Circle.md",
-    "Dante/Math/Calculus/Calculus.md",
     "Dante/Stuff/Pasted image 20260530084911.png",
     "Dante/Stuff/Pasted image 20260530084440.png",
     "Dante/Stuff/Pasted image 20260530083927.png",
     "Dante/Stuff/Pasted image 20260530083517.png",
     "Dante/Stuff/Pasted image 20260530083008.png",
     "Dante/Stuff/Pasted image 20260530082347.png",
-    "Dante/Math/Trigonometry/Sum and difference formulas.md",
-    "Dante/Math/Calculus/Limts/Limit of radical functions.md",
-    "Dante/Math/Calculus/Limts/Evaluating Limits.md",
     "Dante/Math/Calculus/Limts",
-    "Dante/Math/Algebra/writing equations of lines parallel and perpendicular to a given line through a point.md",
     "Dante/Math/Algebra",
     "Dante/Math/Calculus/Calculus Class",
     "Dante/College/Candidates",
@@ -252,7 +226,6 @@
     "Dante/Sum",
     "Dante/Music",
     "Dante/Movies",
-    "Dante/Kali",
     "Dante/Stuff/Pasted image 20260512162806.png"
   ]
 }
