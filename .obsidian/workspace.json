@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1e3c23823aacc0e7",
+        "id": "8f3195928b439250",
         "type": "tabs",
         "children": [
           {
-            "id": "da04c1f9d9f381b6",
+            "id": "3bd6b09aa5ebf611",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Dante/Math/Linear Algebra/Textbook/Ron Larson - Elementary Linear Algebra-Brooks Cole (2016).pdf"
+                "file": "Dante/Math/Complex  Number Conjugates.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Ron Larson - Elementary Linear Algebra-Brooks Cole (2016)"
+              "icon": "lucide-file",
+              "title": "Complex  Number Conjugates"
             }
           }
         ]
@@ -53,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "domain ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 352.5
   },
   "right": {
     "id": "5d61b334b38fc559",
@@ -182,51 +184,52 @@
   },
   "active": "208ae99ab8c3ae4e",
   "lastOpenFiles": [
-    "Dante/Math/Linear Algebra/Textbook",
-    "Dante/Math/Linear Algebra/Topics",
-    "Dante/CS/Computer graphics/Computer Graphics.md",
-    "Dante/Math/Linear Algebra/Textbook/Ron Larson - Elementary Linear Algebra-Brooks Cole (2016).pdf",
-    "Multiplying a vector by a scalar.md",
-    "Complex  Number Conjugates.md",
-    "Dante/Crack mes.md",
-    "HackTheBox/HW_Espresso.md",
-    "HackTheBox",
-    "Dante/Sum/Learning Pyramid.md",
+    "Linear Algebra/Multiplying a vector by a scalar.md",
+    "Linear Algebra/Topics/Vector.md",
+    "Linear Algebra/Topics/Adding vectors algebriacally and graphically.md",
+    "Linear Algebra/Topics/3 Dimension.md",
+    "Linear Algebra/Topics/2 Dimension.md",
+    "Linear Algebra/Topics",
+    "Linear Algebra/Textbook/Ron Larson - Elementary Linear Algebra-Brooks Cole (2016).pdf",
+    "Linear Algebra/Textbook",
+    "Linear Algebra",
+    "Dante/Math/Complex  Number Conjugates.md",
+    "Dante/HackTheBox/HW_Espresso.md",
+    "Linear Algebra",
+    "Dante/Row Echelon Form (REF).md",
+    "Computational thinking with Data Science/Resources and Tools/Python Modules for Data Science.md",
+    "Computational thinking with Data Science/Resources and Tools/Platforms for Python Programming.md",
+    "Computational thinking with Data Science/Resources and Tools",
+    "Dante/Math/Algebra/Finding domains of a function.md",
+    "Computational thinking with Data Science",
+    "Dante/CS/Computer graphics/Sets and Mapping.md",
+    "Dante/Math/Algebra/Formulas/Midpoint formula.md",
+    "Dante/Math/Algebra/Distance between two points in the plane.md",
+    "Dante/Math/PreCal/Complex Nubers/Distance & Midpoint of complex numbers.md",
+    "Dante/Math/Algebra/find center and radius of a circle.md",
+    "Dante/Math/Trigonometry/Sum and difference formulas.md",
+    "Dante/Math/Trigonometry/Unit Circle.md",
+    "Dante/4DM&N.md",
+    "Dante/Complex  Number Conjugates.md",
+    "Dante/Math/Algebra/Absolute value inequalities.md",
+    "Dante/Math/Algebra/Solving inequalities.md",
+    "Dante/Number Sets.md",
+    "Dante/Math/Calculus/Limts/limits of trig functions.md",
+    "Dante/Esports Meeting with NM university.md",
+    "Dante/Math/Calculus/Limts/Limit of radical functions.md",
+    "Dante/Math/PreCal/Complex Nubers/Pasted image 20260810183202.png",
+    "Dante/Math/PreCal/Complex Nubers",
+    "Dante/Math/PreCal",
+    "Dante/Math/PreCal/Complex Nubers/Pasted image 20260810184204.png",
+    "Dante/HackTheBox",
+    "Pasted image 20260723155520.png",
+    "Pasted image 20260723155430.png",
+    "Untitled.canvas",
     "Dante/Pasted images/Pasted image 20260716184451.png",
     "Dante/Pasted images/Pasted image 20260716184230.png",
     "Dante/Pasted images/Pasted image 20260716184039.png",
     "Dante/Pasted images/Pasted image 20260716182826.png",
     "Dante/Pasted images/Pasted image 20260716182704.png",
-    "Dante/Pasted images/Pasted image 20260716164630.png",
-    "Dante/Pasted images/Pasted image 20260530084911.png",
-    "Dante/Pasted images/Pasted image 20260530084440.png",
-    "Dante/Pasted images/Pasted image 20260530083927.png",
-    "Dante/Pasted images/Pasted image 20260530083517.png",
-    "Dante/Pasted images",
-    "Dante/Math/Trigonometry/Trig example images",
-    "Dante/Math/Trigonometry/Trig Functions/Secant SEC.md",
-    "Dante/Math/Trigonometry/Trig Functions/SOH CAH TOA.md",
-    "Dante/Math/Trigonometry/Trig Functions/CoTangent COT.md",
-    "Dante/Math/Trigonometry/Trig Functions/CoSecant CSC.md",
-    "Dante/Math/Trigonometry/Trig Functions",
-    "Dante/Math/Trigonometry/Reciprocal Functions.md",
-    "Dante/Math/Trigonometry/Converting radians into angle.md",
-    "Dante/Math/Trigonometry/Angles.md",
-    "Dante/Math/PreCal/Complex Nubers/Distance & Midpoint of complex numbers.md",
-    "Dante/Math/PreCal/Complex Nubers",
-    "Dante/Math/PreCal",
-    "Dante/Math/Calculus/Integrals/Definite integral.md",
-    "Dante/Math/Calculus/Integrals",
-    "Dante/Math/Calculus/Derivatives/finding the equation of the line tangent to the graph.md",
-    "Dante/Math/Calculus/Derivatives/The Definition of a derivative.md",
-    "Dante/Math/Calculus/Derivatives/Derivatives practice problems.md",
-    "Dante/Math/Algebra/Quadratic functions.md",
-    "Dante/Math/Algebra/Formulas/Quadratic formula.md",
-    "Dante/Math/Algebra/Formulas/Midpoint formula.md",
-    "Dante/Math/Algebra/Formulas",
-    "Dante/Math/Algebra/Exponent Properties.md",
-    "Dante/CS/Kali/Tools.md",
-    "Dante/CS/Kali/Nmap.md",
-    "Dante/CS/Git/Upating Branch.md"
+    "Dante/Pasted images/Pasted image 20260716164630.png"
   ]
 }
