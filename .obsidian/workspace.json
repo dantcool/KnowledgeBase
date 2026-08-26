@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8f3195928b439250",
+        "id": "a6c441c2c4e45388",
         "type": "tabs",
         "children": [
           {
-            "id": "3bd6b09aa5ebf611",
+            "id": "4768ca485a798d7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dante/Math/Complex  Number Conjugates.md",
+                "file": "Linear Algebra/Textbook/CH 1 - System of Linear Equations (NOTES).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Complex  Number Conjugates"
+              "title": "CH 1 - System of Linear Equations (NOTES)"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "domain ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 352.5,
+    "collapsed": true
   },
   "right": {
     "id": "5d61b334b38fc559",
@@ -182,18 +183,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "208ae99ab8c3ae4e",
+  "active": "4768ca485a798d7e",
   "lastOpenFiles": [
-    "Linear Algebra/Multiplying a vector by a scalar.md",
+    "Linear Algebra/Textbook/CH 1 - System of Linear Equations (NOTES).md",
+    "Linear Algebra/Textbook/Ron Larson - Elementary Linear Algebra-Brooks Cole (2016).pdf",
+    "Dante/Math/Complex  Number Conjugates.md",
+    "Linear Algebra/Topics/Multiplying a vector by a scalar.md",
     "Linear Algebra/Topics/Vector.md",
     "Linear Algebra/Topics/Adding vectors algebriacally and graphically.md",
     "Linear Algebra/Topics/3 Dimension.md",
     "Linear Algebra/Topics/2 Dimension.md",
     "Linear Algebra/Topics",
-    "Linear Algebra/Textbook/Ron Larson - Elementary Linear Algebra-Brooks Cole (2016).pdf",
     "Linear Algebra/Textbook",
     "Linear Algebra",
-    "Dante/Math/Complex  Number Conjugates.md",
     "Dante/HackTheBox/HW_Espresso.md",
     "Linear Algebra",
     "Dante/Row Echelon Form (REF).md",
@@ -216,7 +218,6 @@
     "Dante/Number Sets.md",
     "Dante/Math/Calculus/Limts/limits of trig functions.md",
     "Dante/Esports Meeting with NM university.md",
-    "Dante/Math/Calculus/Limts/Limit of radical functions.md",
     "Dante/Math/PreCal/Complex Nubers/Pasted image 20260810183202.png",
     "Dante/Math/PreCal/Complex Nubers",
     "Dante/Math/PreCal",
