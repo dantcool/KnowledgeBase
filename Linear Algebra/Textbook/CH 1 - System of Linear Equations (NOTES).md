@@ -51,3 +51,15 @@ Two particular solutions are $(x=1),(y=0),(z=0)$ and $(x=1),(y=1),(z=2)$
 
 
 
+
+## Homogenoues Systems of Linear Equations
+A ssytem of linear eqautions is said to be **Homogeneous** if it is of the form
+
+$$a_{11}x_1+a_{12}x_2+...+a_mx_n=0$$
+$$a_{21}x_1+a_{22}x_2+...+a_{2n}x_n=0$$
+in words if all the coeffecients on the right side are zero. 
+
+They can have trivial or non-trivial solutions.
+
+the solution (0,0) is the trivial solution 
+

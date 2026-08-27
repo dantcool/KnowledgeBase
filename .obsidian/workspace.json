@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4768ca485a798d7e",
+            "id": "74bcd140145ed154",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "quadratic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,12 +76,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 352.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5d61b334b38fc559",
@@ -183,10 +183,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "4768ca485a798d7e",
+  "active": "dd5fb29a18734954",
   "lastOpenFiles": [
-    "Linear Algebra/Textbook/CH 1 - System of Linear Equations (NOTES).md",
     "Linear Algebra/Textbook/Ron Larson - Elementary Linear Algebra-Brooks Cole (2016).pdf",
+    "Engr2392/26-Aug-2026 Class notes.md",
+    "Engr2392/Calendar.md",
+    "Engr2392/Readings/2014_Schmidt_ChangingTheParadigmForEngineeringEthics_SEE_s11948-013-9491-y.pdf",
+    "Engr2392/Readings/JOHNSON-ENGINEERSTHINKETHICS-2020.pdf",
+    "Engr2392/Readings",
+    "Engr2392/ENGR2392-MWF_Course_Calendar_F26_Campbell_v01rev.pdf",
+    "Computational thinking with Data Science/Anaconda.md",
+    "Engr2392",
+    "Dante/CS/Make File executable Arch.md",
+    "Linear Algebra/Textbook/CH 1 - System of Linear Equations (NOTES).md",
     "Dante/Math/Complex  Number Conjugates.md",
     "Linear Algebra/Topics/Multiplying a vector by a scalar.md",
     "Linear Algebra/Topics/Vector.md",
@@ -201,9 +210,7 @@
     "Dante/Row Echelon Form (REF).md",
     "Computational thinking with Data Science/Resources and Tools/Python Modules for Data Science.md",
     "Computational thinking with Data Science/Resources and Tools/Platforms for Python Programming.md",
-    "Computational thinking with Data Science/Resources and Tools",
     "Dante/Math/Algebra/Finding domains of a function.md",
-    "Computational thinking with Data Science",
     "Dante/CS/Computer graphics/Sets and Mapping.md",
     "Dante/Math/Algebra/Formulas/Midpoint formula.md",
     "Dante/Math/Algebra/Distance between two points in the plane.md",
@@ -213,16 +220,8 @@
     "Dante/Math/Trigonometry/Unit Circle.md",
     "Dante/4DM&N.md",
     "Dante/Complex  Number Conjugates.md",
-    "Dante/Math/Algebra/Absolute value inequalities.md",
-    "Dante/Math/Algebra/Solving inequalities.md",
-    "Dante/Number Sets.md",
-    "Dante/Math/Calculus/Limts/limits of trig functions.md",
-    "Dante/Esports Meeting with NM university.md",
     "Dante/Math/PreCal/Complex Nubers/Pasted image 20260810183202.png",
-    "Dante/Math/PreCal/Complex Nubers",
-    "Dante/Math/PreCal",
     "Dante/Math/PreCal/Complex Nubers/Pasted image 20260810184204.png",
-    "Dante/HackTheBox",
     "Pasted image 20260723155520.png",
     "Pasted image 20260723155430.png",
     "Untitled.canvas",
