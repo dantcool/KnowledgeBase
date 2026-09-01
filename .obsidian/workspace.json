@@ -4,24 +4,65 @@
     "type": "split",
     "children": [
       {
-        "id": "a6c441c2c4e45388",
+        "id": "f846c5b72a7f22e5",
         "type": "tabs",
         "children": [
           {
-            "id": "74bcd140145ed154",
+            "id": "bdd1adecc35e8ad4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra/Textbook/CH 1 - System of Linear Equations (NOTES).md",
+                "file": "Engr2392/31-Aug-2026 Class Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CH 1 - System of Linear Equations (NOTES)"
+              "title": "31-Aug-2026 Class Notes"
+            }
+          },
+          {
+            "id": "81c01c686504114e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Engr2392/28-Aug-2026 Class Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "28-Aug-2026 Class Notes"
+            }
+          },
+          {
+            "id": "baddceb359a1adb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chemistry/1.2b Classifying Pure Substance on the Macroscopic Scale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.2b Classifying Pure Substance on the Macroscopic Scale"
+            }
+          },
+          {
+            "id": "7f7364bfb037ec61",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Computational thinking with Data Science/Module Notes/1-CT-ProgrammingPrinciples-ENGR1330-CTwithDS.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "1-CT-ProgrammingPrinciples-ENGR1330-CTwithDS"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -55,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "quadratic",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,8 +117,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -183,43 +223,46 @@
       "bases:Create new base": false
     }
   },
-  "active": "dd5fb29a18734954",
+  "active": "7f7364bfb037ec61",
   "lastOpenFiles": [
-    "Linear Algebra/Textbook/Ron Larson - Elementary Linear Algebra-Brooks Cole (2016).pdf",
+    "Computational thinking with Data Science/Anaconda.md",
+    "Chemistry/1.2c Classifying Mixtures on the Macroscopic Scale.md",
+    "Chemistry/images/Pasted image 20260901115504.png",
+    "Chemistry/1.2b Classifying Pure Substance on the Macroscopic Scale.md",
+    "Chemistry/1.2a Classifying matter on the Atomic Scale.md",
+    "Engr2392/28-Aug-2026 Class Notes.md",
     "Engr2392/26-Aug-2026 Class notes.md",
+    "Chemistry/images/Pasted image 20260831190513.png",
+    "Engr2392/31-Aug-2026 Class Notes.md",
+    "Computational thinking with Data Science/Module Notes/1-CT-ProgrammingPrinciples-ENGR1330-CTwithDS.pdf",
+    "Computational thinking with Data Science/Precedence of Operators.md",
+    "Chemistry/1.1a The Scale of Chemistry.md",
+    "Chemistry/1.1b Measuring Matter.md",
+    "Chemistry/images",
+    "Chemistry/images/Pasted image 20260828210708.png",
+    "Dante/Math/Trigonometry/Sum and difference formulas.md",
+    "Chemistry",
+    "Dante/Math/Trigonometry/Trig Functions/Secant SEC.md",
+    "Dante/Math/Trigonometry/Trig Functions/CoSecant CSC.md",
+    "Dante/Math/Trigonometry/Trig Functions/CoTangent COT.md",
+    "Dante/Math/Calculus/Limts/Limit of radical functions.md",
+    "Engr2392/Readings/Harris.etal.pdf",
+    "Engr2392/Readings/Landau.2017.pdf",
+    "Computational thinking with Data Science/In Class notes 8-28-26.md",
+    "Computational thinking with Data Science/Module Notes",
+    "Linear Algebra/Textbook/CH 1 - System of Linear Equations (NOTES).md",
+    "Linear Algebra/Textbook/Ron Larson - Elementary Linear Algebra-Brooks Cole (2016).pdf",
     "Engr2392/Calendar.md",
     "Engr2392/Readings/2014_Schmidt_ChangingTheParadigmForEngineeringEthics_SEE_s11948-013-9491-y.pdf",
     "Engr2392/Readings/JOHNSON-ENGINEERSTHINKETHICS-2020.pdf",
     "Engr2392/Readings",
-    "Engr2392/ENGR2392-MWF_Course_Calendar_F26_Campbell_v01rev.pdf",
-    "Computational thinking with Data Science/Anaconda.md",
-    "Engr2392",
     "Dante/CS/Make File executable Arch.md",
-    "Linear Algebra/Textbook/CH 1 - System of Linear Equations (NOTES).md",
     "Dante/Math/Complex  Number Conjugates.md",
     "Linear Algebra/Topics/Multiplying a vector by a scalar.md",
     "Linear Algebra/Topics/Vector.md",
     "Linear Algebra/Topics/Adding vectors algebriacally and graphically.md",
     "Linear Algebra/Topics/3 Dimension.md",
     "Linear Algebra/Topics/2 Dimension.md",
-    "Linear Algebra/Topics",
-    "Linear Algebra/Textbook",
-    "Linear Algebra",
-    "Dante/HackTheBox/HW_Espresso.md",
-    "Linear Algebra",
-    "Dante/Row Echelon Form (REF).md",
-    "Computational thinking with Data Science/Resources and Tools/Python Modules for Data Science.md",
-    "Computational thinking with Data Science/Resources and Tools/Platforms for Python Programming.md",
-    "Dante/Math/Algebra/Finding domains of a function.md",
-    "Dante/CS/Computer graphics/Sets and Mapping.md",
-    "Dante/Math/Algebra/Formulas/Midpoint formula.md",
-    "Dante/Math/Algebra/Distance between two points in the plane.md",
-    "Dante/Math/PreCal/Complex Nubers/Distance & Midpoint of complex numbers.md",
-    "Dante/Math/Algebra/find center and radius of a circle.md",
-    "Dante/Math/Trigonometry/Sum and difference formulas.md",
-    "Dante/Math/Trigonometry/Unit Circle.md",
-    "Dante/4DM&N.md",
-    "Dante/Complex  Number Conjugates.md",
     "Dante/Math/PreCal/Complex Nubers/Pasted image 20260810183202.png",
     "Dante/Math/PreCal/Complex Nubers/Pasted image 20260810184204.png",
     "Pasted image 20260723155520.png",
@@ -227,9 +270,6 @@
     "Untitled.canvas",
     "Dante/Pasted images/Pasted image 20260716184451.png",
     "Dante/Pasted images/Pasted image 20260716184230.png",
-    "Dante/Pasted images/Pasted image 20260716184039.png",
-    "Dante/Pasted images/Pasted image 20260716182826.png",
-    "Dante/Pasted images/Pasted image 20260716182704.png",
-    "Dante/Pasted images/Pasted image 20260716164630.png"
+    "Dante/Pasted images/Pasted image 20260716184039.png"
   ]
 }
