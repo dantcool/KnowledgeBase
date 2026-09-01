@@ -11,10 +11,12 @@
             "id": "4175282fd9a1fe11",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Engr2392/Readings/2014_Schmidt_ChangingTheParadigmForEngineeringEthics_SEE_s11948-013-9491-y.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "2014_Schmidt_ChangingTheParadigmForEngineeringEthics_SEE_s11948-013-9491-y"
             }
           }
         ]
