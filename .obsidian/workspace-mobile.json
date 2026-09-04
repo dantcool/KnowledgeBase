@@ -11,12 +11,14 @@
             "id": "4c68e8c85e8f9f95",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Engr2392/Readings/Harris.etal.pdf"
+                "file": "Engr2392/26-Aug-2026 Class notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Harris.etal"
+              "icon": "lucide-file",
+              "title": "26-Aug-2026 Class notes"
             }
           }
         ]
@@ -115,7 +117,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Engr2392/Readings/Harris.etal.pdf",
+            "file": "Engr2392/26-Aug-2026 Class notes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -171,11 +173,13 @@
   },
   "active": "4c68e8c85e8f9f95",
   "lastOpenFiles": [
+    "Engr2392/28-Aug-2026 Class Notes.md",
+    "Engr2392/31-Aug-2026 Class Notes.md",
+    "Engr2392/Readings/2014_Schmidt_ChangingTheParadigmForEngineeringEthics_SEE_s11948-013-9491-y.pdf",
+    "Engr2392/Readings/Harris.etal.pdf",
     "Engr2392/Readings/Landau.2017.pdf",
     "Engr2392/Readings/JOHNSON-ENGINEERSTHINKETHICS-2020.pdf",
-    "Engr2392/Readings/Harris.etal.pdf",
     "Chemistry/1.2c Classifying Mixtures on the Macroscopic Scale.md",
-    "Engr2392/Readings/2014_Schmidt_ChangingTheParadigmForEngineeringEthics_SEE_s11948-013-9491-y.pdf",
     "Untitled.base",
     "Untitled.canvas",
     "Dante/Math/Calculus/pauls online notes (my notes tho)/Limits/1.Tangent Lines and Rates of change.md",
