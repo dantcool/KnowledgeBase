@@ -4,65 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f846c5b72a7f22e5",
+        "id": "700e36f40525c58c",
         "type": "tabs",
         "children": [
           {
-            "id": "bdd1adecc35e8ad4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Engr2392/31-Aug-2026 Class Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "31-Aug-2026 Class Notes"
-            }
-          },
-          {
-            "id": "81c01c686504114e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Engr2392/28-Aug-2026 Class Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "28-Aug-2026 Class Notes"
-            }
-          },
-          {
-            "id": "baddceb359a1adb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chemistry/1.2b Classifying Pure Substance on the Macroscopic Scale.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.2b Classifying Pure Substance on the Macroscopic Scale"
-            }
-          },
-          {
-            "id": "7f7364bfb037ec61",
+            "id": "424e7307635edee6",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Computational thinking with Data Science/Module Notes/1-CT-ProgrammingPrinciples-ENGR1330-CTwithDS.pdf"
+                "file": "Linear Algebra/Textbook/Ron Larson - Elementary Linear Algebra-Brooks Cole (2016).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "1-CT-ProgrammingPrinciples-ENGR1330-CTwithDS"
+              "title": "Ron Larson - Elementary Linear Algebra-Brooks Cole (2016)"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5d61b334b38fc559",
@@ -223,53 +181,54 @@
       "bases:Create new base": false
     }
   },
-  "active": "7f7364bfb037ec61",
+  "active": "424e7307635edee6",
   "lastOpenFiles": [
-    "Computational thinking with Data Science/Anaconda.md",
-    "Chemistry/1.2c Classifying Mixtures on the Macroscopic Scale.md",
-    "Chemistry/images/Pasted image 20260901115504.png",
-    "Chemistry/1.2b Classifying Pure Substance on the Macroscopic Scale.md",
-    "Chemistry/1.2a Classifying matter on the Atomic Scale.md",
-    "Engr2392/28-Aug-2026 Class Notes.md",
-    "Engr2392/26-Aug-2026 Class notes.md",
-    "Chemistry/images/Pasted image 20260831190513.png",
-    "Engr2392/31-Aug-2026 Class Notes.md",
-    "Computational thinking with Data Science/Module Notes/1-CT-ProgrammingPrinciples-ENGR1330-CTwithDS.pdf",
-    "Computational thinking with Data Science/Precedence of Operators.md",
-    "Chemistry/1.1a The Scale of Chemistry.md",
-    "Chemistry/1.1b Measuring Matter.md",
-    "Chemistry/images",
-    "Chemistry/images/Pasted image 20260828210708.png",
-    "Dante/Math/Trigonometry/Sum and difference formulas.md",
-    "Chemistry",
+    "Linear Algebra/Textbook/CH 1 - System of Linear Equations (NOTES).md",
     "Dante/Math/Trigonometry/Trig Functions/Secant SEC.md",
     "Dante/Math/Trigonometry/Trig Functions/CoSecant CSC.md",
     "Dante/Math/Trigonometry/Trig Functions/CoTangent COT.md",
-    "Dante/Math/Calculus/Limts/Limit of radical functions.md",
-    "Engr2392/Readings/Harris.etal.pdf",
-    "Engr2392/Readings/Landau.2017.pdf",
-    "Computational thinking with Data Science/In Class notes 8-28-26.md",
-    "Computational thinking with Data Science/Module Notes",
-    "Linear Algebra/Textbook/CH 1 - System of Linear Equations (NOTES).md",
     "Linear Algebra/Textbook/Ron Larson - Elementary Linear Algebra-Brooks Cole (2016).pdf",
-    "Engr2392/Calendar.md",
-    "Engr2392/Readings/2014_Schmidt_ChangingTheParadigmForEngineeringEthics_SEE_s11948-013-9491-y.pdf",
-    "Engr2392/Readings/JOHNSON-ENGINEERSTHINKETHICS-2020.pdf",
-    "Engr2392/Readings",
-    "Dante/CS/Make File executable Arch.md",
-    "Dante/Math/Complex  Number Conjugates.md",
-    "Linear Algebra/Topics/Multiplying a vector by a scalar.md",
-    "Linear Algebra/Topics/Vector.md",
-    "Linear Algebra/Topics/Adding vectors algebriacally and graphically.md",
-    "Linear Algebra/Topics/3 Dimension.md",
-    "Linear Algebra/Topics/2 Dimension.md",
+    "Untitled.md",
+    "Japanese/Numbers.md",
+    "Japanese/Websites.md",
+    "Chemistry/Unit 1/1.3b SI Base Units and Derive Units.md",
+    "Japanese",
+    "Chemistry/Unit 1/1.2c Classifying Mixtures on the Macroscopic Scale.md",
+    "Chemistry/Unit 1/1.1b Measuring Matter.md",
+    "Chemistry/1.4a Dimensional Analysis.md",
+    "Chemistry/1.4b Unit Conversion Using Density.md",
+    "Chemistry/Unit 1/1.3c Significant Figures, Precision, and Accuracy.md",
+    "Chemistry/Unit 1/1.3a Scientific Units and Scientific Notation.md",
+    "Chemistry/Unit 1/1.2b Classifying Pure Substance on the Macroscopic Scale.md",
+    "Chemistry/Unit 1/1.2a Classifying matter on the Atomic Scale.md",
+    "Engr2392/4-Sep-2026 In Class notes.md",
+    "Engr2392/Readings/Theme 2/JOHNSON-ENGINEERINGETHICSTAUGHT-2020.pdf",
+    "Engr2392/Readings/Theme 2/Intuition Article.pdf",
+    "Engr2392/Readings/Theme 2/Kahneman.pdf",
+    "Engr2392/Readings/Theme 2/Thaler.Sunstein.2008.pdf",
+    "Engr2392/Readings/Theme 2",
+    "Engr2392/Readings/Theme 1",
+    "Computational thinking with Data Science/Anaconda.md",
+    "Chemistry/Unit 1",
+    "Chemistry/images/Pasted image 20260904115107.png",
+    "Chemistry/images/Pasted image 20260904112705.png",
+    "Chemistry/images/Pasted image 20260904112723.png",
+    "Engr2392/2-SEP-2026 in class notes.md",
+    "Engr2392/31-Aug-2026 Class Notes.md",
+    "Engr2392/28-Aug-2026 Class Notes.md",
+    "Engr2392/26-Aug-2026 Class notes.md",
+    "Engr2392/ENGR2392-MWF_Course_Calendar_F26_Campbell_v01rev.pdf",
+    "Engr2392/Notes on Landau Chapter 19 (READING).md",
+    "Computational thinking with Data Science/In Class notes 9-2-26.md",
+    "Chemistry/images/Pasted image 20260901115504.png",
+    "Chemistry/images/Pasted image 20260831190513.png",
+    "Computational thinking with Data Science/Precedence of Operators.md",
+    "Chemistry/Unit 1/1.1a The Scale of Chemistry.md",
+    "Chemistry/images/Pasted image 20260828210708.png",
     "Dante/Math/PreCal/Complex Nubers/Pasted image 20260810183202.png",
     "Dante/Math/PreCal/Complex Nubers/Pasted image 20260810184204.png",
     "Pasted image 20260723155520.png",
     "Pasted image 20260723155430.png",
-    "Untitled.canvas",
-    "Dante/Pasted images/Pasted image 20260716184451.png",
-    "Dante/Pasted images/Pasted image 20260716184230.png",
-    "Dante/Pasted images/Pasted image 20260716184039.png"
+    "Untitled.canvas"
   ]
 }
