@@ -1,0 +1,3 @@
+**Array Data Structures** - fundamental data stucture that has a wide range of uses across different algorithims. Consists f fixed-size daata records that allow eachelement to be efficiently located based on its index
+
+List: Mutable Dynamic Arrays - list are part of the core pythong language. A list allows elements to be added or removed and list will automatically adjust themacking store that holds the elements by allocation or releasing memory. Phython list holds aribtrary elemen- everything is an object in pyhton including functions
