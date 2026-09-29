@@ -1,0 +1,1 @@
+First differentiate your equation

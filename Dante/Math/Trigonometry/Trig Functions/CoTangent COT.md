@@ -1,2 +1,0 @@
-Reciprocal of tangent 
-  
