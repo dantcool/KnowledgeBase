@@ -1,8 +1,8 @@
 # Step 1: Input handling for non-integers
-num_input = input("Enter Number between 1 and 111\n")
+num = input("Enter Number between 1 and 111\n")
 
 try:
-    num = int(num_input)
+    num = int(num)
 except ValueError:
     num = 0
 
