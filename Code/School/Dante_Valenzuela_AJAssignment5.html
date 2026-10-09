@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h1>Thank you for registering</h1>
+
+    <p> For Questions, please call 1-800-123-4567.</p>
+
+    <h2> Contact Information </h2>
+</body>
+
+<form action="/contact" method="post">
+
+    <label for=" First Name">Name:</label><br><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="middle-name">Middle Name:</label><br><br>
+    <input type="text" id="middle-name" name="middle-name" required><br><br>
+
+    <label for="Last name">Last Name:</label><br><br>
+    <input type="text" id="Last name" name="Last name" required><br><br>
+
+    <label for="Age">Age:</label><br><br>
+    <input type="number" id="Age" name="Age" required><br><br>
+
+    <label for="Email ">Email:</label><br><br>
+    <input type="email" id="Email " name="Email " required><br><br>
+
+    <label for="Todays Date">Todays date:</label><br><br>
+    <select id="Todays Date" name="Todays Date" required>
+        <option value="">-- Please choose an option --</option>
+        <option value="april-8-2026">April 8, 2026</option>
+        <option value="april-7-2026">April 7, 2026</option>
+        <option value="april-6-2026">April 6, 2026</option>
+    </select><br><br>
+
+    <label for="Phone">Phone:</label><br><br>
+    <input type="tel" id="Phone" name="Phone" required><br><br>
+
+    <label for="Occupation">Occupation:</label><br><br>
+    <input type="text" id="Occupation" name="Occupation" required><br><br>
+
+    <label for="Business Name">Business Name:</label><br><br>
+    <input type="text" id="Business Name" name="Business Name" required><br><br>
+
+    <label for="Organization/Memberships">Business Address:</label><br><br>
+    <input type="text" id="Organization/Memberships" name="Organization/Memberships" required><br><br>
+
+    <fieldset>
+
+        <legend> Attendance history</legend>
+        <p>Have you attended this training  before?</p>
+        <input type="radio" id="option1" name="options" value="option1">
+        <label for="option1">Yes</label>
+        <input type="radio" id="option2" name="options" value="option2">
+        <label for="option2">No</label><br><br>
+
+    </fieldset><br><br>
+
+    <label for="If yes, when?">If yes, when?:</label><br><br>
+    <input type="text" id="If yes, when?" name="If yes, when?" required><br><br>
+
+    <label for="How did you hear about this training?">How did you hear about this training?</label><br><br>
+    <textarea type="text" id="How did you hear about this training?" name="How did you hear about this training?" rows="10" cols="50" required></textarea><br><br>
+
+
+
+     <input type="submit" value="Submit">
+
+</form>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h1 style = "background-color: dodgerblue;">Website</h1>
+    <br>
+    <h2 style = "border: 2px red;">This is the website page.</h2>
+</body>
+
+<form>
+
+    <label for="Full Name">Full Name:</label>
+    <input type="text" id="full-name" name="full-name" required><br><br>
+
+    <label for="Email Address">Email Address:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <fieldset>
+
+        <legend>How did you hear about us?</legend>
+        <input type="radio" id="option1" name="options" value="option1">
+        <label for="option1">Friend or family</label><br>
+        <input type="radio" id="option2" name="options" value="option2">
+        <label for="option2">Web Search</label><br>
+
+        <label for="major">Select Your major:</label>
+        <select id="major" name="major" required>
+        <option value="">-- Please choose an option --</option>
+        <option value="computer-science">Computer Science</option>
+        <option value="mathematics">Mathematics</option>
+        <option value="physics">Physics</option>
+    </select><br><br>
+
+    </fieldset>
+
+
+    <button type="submit">Send Message</button>
+
+
+
+</form>
+
+</html>
