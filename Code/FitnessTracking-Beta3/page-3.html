@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fitness Tracker - Workout Tracker</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/auth.js"></script>
+</head>
+<body>
+	<a class="skip-link" href="#main-content">Skip to main content</a>
+	<nav class="navbar" aria-label="Primary">
+		<div class="brand-block">
+			<div class="app-name">FitnessTracker</div>
+			<p class="app-tagline">Build strength one day at a time</p>
+		</div>
+		<ul class="nav-links">
+			<li><a href="index.html">Dashboard</a></li>
+			<li><a href="page-2.html">Meal Tracking</a></li>
+			<li><a class="active" href="page-3.html" aria-current="page">Workout Tracker</a></li>
+			<li><a href="page-4.html">Weight Tracker</a></li>
+			<li><a href="page-5.html">Profile</a></li>
+		</ul>
+	</nav>
+
+	<main id="main-content" class="workout-page" tabindex="-1">
+		<header class="workout-page-header">
+			<h1>Workout Tracker</h1>
+			<p>Track your sessions for warm-up, strength, cardio, cooldown, and extras.</p>
+		</header>
+
+		<section class="workout-meta" aria-label="Workout details">
+			<label for="workout-date">Workout Date</label>
+			<input id="workout-date" type="date" data-allow-future="true" aria-describedby="workout-date-help">
+			<p id="workout-date-help" class="date-help">Pick a future date to plan upcoming workouts.</p>
+			<label for="session-focus">Session Focus</label>
+			<input id="session-focus" type="text" placeholder="Example: Upper Body, Legs, Conditioning">
+		</section>
+
+		<form class="workout-form" aria-label="Workout logging form">
+			<section class="workout-card" aria-labelledby="warmup-title">
+				<div class="workout-card-head">
+					<h2 id="warmup-title">Warm-Up</h2>
+				</div>
+				<label for="warmup-exercise">Exercise</label>
+				<textarea id="warmup-exercise" name="warmup-exercise" placeholder="Example: Dynamic stretch, light jog"></textarea>
+				<div class="workout-grid">
+					<label>Duration (min)
+						<input type="number" name="warmup-duration" min="0" step="1">
+					</label>
+					<label>Intensity (RPE)
+						<input type="number" name="warmup-rpe" min="1" max="10" step="1">
+					</label>
+					<label>Calories Burned
+						<input type="number" name="warmup-calories" min="0" step="1">
+					</label>
+					<label>Notes
+						<input type="text" name="warmup-notes" placeholder="How it felt">
+					</label>
+				</div>
+			</section>
+
+			<section class="workout-card" aria-labelledby="strength-title">
+				<div class="workout-card-head">
+					<h2 id="strength-title">Strength</h2>
+				</div>
+				<label for="strength-exercise">Exercise</label>
+				<textarea id="strength-exercise" name="strength-exercise" placeholder="Example: Bench press, squat, rows"></textarea>
+				<div class="workout-grid">
+					<label>Sets
+						<input type="number" name="strength-sets" min="0" step="1">
+					</label>
+					<label>Reps
+						<input type="number" name="strength-reps" min="0" step="1">
+					</label>
+					<label>Weight (lb)
+						<input type="number" name="strength-weight" min="0" step="1">
+					</label>
+					<label>Intensity (RPE)
+						<input type="number" name="strength-rpe" min="1" max="10" step="1">
+					</label>
+				</div>
+			</section>
+
+			<section class="workout-card" aria-labelledby="cardio-title">
+				<div class="workout-card-head">
+					<h2 id="cardio-title">Cardio</h2>
+				</div>
+				<label for="cardio-exercise">Exercise</label>
+				<textarea id="cardio-exercise" name="cardio-exercise" placeholder="Example: Treadmill run, bike intervals"></textarea>
+				<div class="workout-grid">
+					<label>Duration (min)
+						<input type="number" name="cardio-duration" min="0" step="1">
+					</label>
+					<label>Distance
+						<input type="text" name="cardio-distance" placeholder="Example: 2.5 mi">
+					</label>
+					<label>Avg Pace
+						<input type="text" name="cardio-pace" placeholder="Example: 8:30 / mi">
+					</label>
+					<label>Calories Burned
+						<input type="number" name="cardio-calories" min="0" step="1">
+					</label>
+				</div>
+			</section>
+
+			<section class="workout-card" aria-labelledby="cooldown-title">
+				<div class="workout-card-head">
+					<h2 id="cooldown-title">Cooldown</h2>
+				</div>
+				<label for="cooldown-exercise">Exercise</label>
+				<textarea id="cooldown-exercise" name="cooldown-exercise" placeholder="Example: Walking, mobility work, stretching"></textarea>
+				<div class="workout-grid">
+					<label>Duration (min)
+						<input type="number" name="cooldown-duration" min="0" step="1">
+					</label>
+					<label>Intensity (RPE)
+						<input type="number" name="cooldown-rpe" min="1" max="10" step="1">
+					</label>
+					<label>Calories Burned
+						<input type="number" name="cooldown-calories" min="0" step="1">
+					</label>
+					<label>Notes
+						<input type="text" name="cooldown-notes" placeholder="Recovery details">
+					</label>
+				</div>
+			</section>
+
+			<section class="workout-extras" aria-labelledby="workout-extras-title">
+				<div class="workout-card-head">
+					<h2 id="workout-extras-title">Extras</h2>
+					<button id="add-workout-extra-btn" class="add-workout-extra-btn" type="button">+ Add Extra Exercise</button>
+				</div>
+				<p class="workout-extras-note">Use extras for bonus exercises, accessories, or additional circuits.</p>
+				<div id="workout-extras-container" class="workout-extras-container"></div>
+			</section>
+		</form>
+	</main>
+
+	<script>
+		const workoutDateInput = document.getElementById("workout-date");
+		const addWorkoutExtraBtn = document.getElementById("add-workout-extra-btn");
+		const workoutExtrasContainer = document.getElementById("workout-extras-container");
+		let workoutExtraCount = 0;
+
+		const today = new Date();
+		workoutDateInput.value = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
+
+		function addWorkoutExtraCard() {
+			workoutExtraCount += 1;
+			const card = document.createElement("section");
+			card.className = "workout-card workout-extra-card";
+			card.innerHTML = `
+				<div class="workout-card-head">
+					<h3>Extra Exercise ${workoutExtraCount}</h3>
+					<button type="button" class="remove-workout-extra-btn" aria-label="Remove extra exercise ${workoutExtraCount}">Remove</button>
+				</div>
+				<label>Exercise
+					<textarea name="workout-extra-${workoutExtraCount}-exercise" placeholder="Example: Core circuit, sled push"></textarea>
+				</label>
+				<div class="workout-grid">
+					<label>Sets
+						<input type="number" name="workout-extra-${workoutExtraCount}-sets" min="0" step="1">
+					</label>
+					<label>Reps / Duration
+						<input type="text" name="workout-extra-${workoutExtraCount}-reps-duration" placeholder="Example: 3 x 15 or 12 min">
+					</label>
+					<label>Weight / Resistance
+						<input type="text" name="workout-extra-${workoutExtraCount}-weight" placeholder="Example: 40 lb or band">
+					</label>
+					<label>Intensity (RPE)
+						<input type="number" name="workout-extra-${workoutExtraCount}-rpe" min="1" max="10" step="1">
+					</label>
+				</div>
+			`;
+			workoutExtrasContainer.appendChild(card);
+		}
+
+		addWorkoutExtraBtn.addEventListener("click", addWorkoutExtraCard);
+
+		workoutExtrasContainer.addEventListener("click", (event) => {
+			if (event.target.classList.contains("remove-workout-extra-btn")) {
+				event.target.closest(".workout-extra-card").remove();
+			}
+		});
+
+		addWorkoutExtraCard();
+	</script>
+	<script src="js/validation.js"></script>
+</body>
+</html>

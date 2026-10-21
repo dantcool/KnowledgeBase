@@ -16,3 +16,7 @@ Taking each vector and dividing it by its own length
 $$u=\frac{v}{||v||}$$
 
 
+### Collinear 
+![[Pasted image 20261019103650.png]]![[Pasted image 20261019104104.png]]
+
+### Project a vector into  a subspace
