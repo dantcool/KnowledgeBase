@@ -29,27 +29,30 @@ def guessNum():
     return mes
 
 def guessName():
-    secretname = secretname.lower()
+    secretnamel = secretname.lower()
     win = False
     lenName = len(secretname)
-    aster = ''
-    
+    aster = []
     print(lenName)
+    match = False
+    
     for x in range(lenName):
-        aster += '*'
+        aster.append("*")
     print (aster)
     
-    while win == False:
+    numguess = 0
+    while win == False or guess < 10:
         match = False
-        
         guess = input('Guess the word by entering a letter')
         
         for i in range(lenName):
-            if guess == secretname[i]:
-                aster.replace(aster[i],guess)
-                print(aster)
-                break
+            if guess == secretnamel[i]:
+                print("mathc found")
             else:
-                print('no match found at index',i)
+                print("nomathcfound")
+                break
+        
+        numguess += 1
+        
         
         
