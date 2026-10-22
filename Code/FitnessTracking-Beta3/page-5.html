@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fitness Tracker - Profile</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/auth.js"></script>
+</head>
+<body>
+	<a class="skip-link" href="#main-content">Skip to main content</a>
+	<nav class="navbar" aria-label="Primary">
+		<div class="brand-block">
+			<div class="app-name">FitnessTracker</div>
+			<p class="app-tagline">Build strength one day at a time</p>
+		</div>
+		<ul class="nav-links">
+			<li><a href="index.html">Dashboard</a></li>
+			<li><a href="page-2.html">Meal Tracking</a></li>
+			<li><a href="page-3.html">Workout Tracker</a></li>
+			<li><a href="page-4.html">Weight Tracker</a></li>
+			<li><a class="active" href="page-5.html" aria-current="page">Profile</a></li>
+		</ul>
+	</nav>
+
+	<main id="main-content" class="profile-page" tabindex="-1">
+		<header class="profile-page-header">
+			<h1>Profile</h1>
+			<p>Sign in to your account, then set your personal info, goals, and workout preferences.</p>
+		</header>
+
+		<section class="profile-auth-card" aria-labelledby="account-title">
+			<div class="profile-card-head">
+				<h2 id="account-title">Account Access</h2>
+			</div>
+			<div class="profile-fields profile-two-col">
+				<label for="auth-username">Username
+					<input id="auth-username" type="text" minlength="3" placeholder="Username" autocomplete="username">
+				</label>
+				<label for="auth-pin">PIN (4-8 digits)
+					<input id="auth-pin" type="password" inputmode="numeric" pattern="[0-9]{4,8}" minlength="4" maxlength="8" placeholder="PIN" autocomplete="current-password">
+				</label>
+			</div>
+			<div class="profile-auth-actions">
+				<button id="auth-login-btn" class="profile-btn" type="button">Log In</button>
+				<button id="auth-register-btn" class="profile-btn" type="button">Create Account</button>
+				<button id="auth-logout-btn" class="profile-btn profile-btn-secondary" type="button" hidden>Log Out</button>
+				<p id="auth-status" class="auth-status" aria-live="polite">Sign in to access tracker pages and save data to your profile.</p>
+			</div>
+		</section>
+
+		<form id="profile-form" class="profile-grid" aria-label="Profile settings form" hidden>
+			<section class="profile-card" aria-labelledby="basic-info-title">
+				<div class="profile-card-head">
+					<h2 id="basic-info-title">Basic Info</h2>
+				</div>
+				<div class="profile-fields profile-two-col">
+					<label for="profile-name">Full Name
+						<input id="profile-name" name="profile-name" type="text" placeholder="Your name">
+					</label>
+					<label for="profile-email">Email
+						<input id="profile-email" name="profile-email" type="email" placeholder="you@example.com">
+					</label>
+					<label for="profile-age">Age
+						<input id="profile-age" name="profile-age" type="number" min="1" step="1" placeholder="Age">
+					</label>
+					<label for="profile-gender">Gender
+						<select id="profile-gender" name="profile-gender">
+							<option value="">Select</option>
+							<option>Male</option>
+							<option>Female</option>
+							<option>Non-binary</option>
+							<option>Prefer not to say</option>
+						</select>
+					</label>
+				</div>
+			</section>
+
+			<section class="profile-card" aria-labelledby="body-metrics-title">
+				<div class="profile-card-head">
+					<h2 id="body-metrics-title">Body Metrics</h2>
+				</div>
+				<div class="profile-fields profile-four-col">
+					<label for="profile-height-feet">Height (ft)
+						<input id="profile-height-feet" name="profile-height-feet" type="number" min="0" max="8" step="1" placeholder="ft">
+					</label>
+					<label for="profile-height-inches">Height (in)
+						<input id="profile-height-inches" name="profile-height-inches" type="number" min="0" max="11" step="1" placeholder="in">
+					</label>
+					<label for="profile-current-weight">Current Weight (kg)
+						<input id="profile-current-weight" name="profile-current-weight" type="number" min="1" step="0.1" placeholder="kg">
+					</label>
+					<label for="profile-goal-weight">Goal Weight (kg)
+						<input id="profile-goal-weight" name="profile-goal-weight" type="number" min="1" step="0.1" placeholder="kg">
+					</label>
+				</div>
+			</section>
+
+			<section class="profile-card" aria-labelledby="fitness-goals-title">
+				<div class="profile-card-head">
+					<h2 id="fitness-goals-title">Fitness Goals</h2>
+				</div>
+				<div class="profile-fields profile-two-col">
+					<label for="profile-main-goal">Main Goal
+						<select id="profile-main-goal" name="profile-main-goal">
+							<option value="">Select a goal</option>
+							<option>Lose Fat</option>
+							<option>Build Muscle</option>
+							<option>Maintain Weight</option>
+							<option>Improve Endurance</option>
+							<option>General Fitness</option>
+						</select>
+					</label>
+					<label for="profile-workouts-per-week">Workouts per Week
+						<input id="profile-workouts-per-week" name="profile-workouts-per-week" type="number" min="0" max="14" step="1" placeholder="Example: 4">
+					</label>
+					<label for="profile-calorie-target">Daily Calorie Target
+						<input id="profile-calorie-target" name="profile-calorie-target" type="number" min="0" step="1" placeholder="Example: 2200">
+					</label>
+					<label for="profile-protein-target">Daily Protein Target (g)
+						<input id="profile-protein-target" name="profile-protein-target" type="number" min="0" step="1" placeholder="Example: 170">
+					</label>
+				</div>
+			</section>
+
+			<section class="profile-card" aria-labelledby="preferences-title">
+				<div class="profile-card-head">
+					<h2 id="preferences-title">Preferences & Notes</h2>
+				</div>
+				<div class="profile-fields">
+					<label for="profile-training-style">Preferred Training Style
+						<input id="profile-training-style" name="profile-training-style" type="text" placeholder="Example: Push/Pull/Legs">
+					</label>
+					<label for="profile-diet-style">Preferred Nutrition Style
+						<input id="profile-diet-style" name="profile-diet-style" type="text" placeholder="Example: High protein">
+					</label>
+					<label for="profile-notes">Notes
+						<textarea id="profile-notes" name="profile-notes" placeholder="Anything you want to remember"></textarea>
+					</label>
+				</div>
+			</section>
+
+			<section class="profile-actions" aria-label="Profile actions">
+				<button id="save-profile-btn" class="profile-btn" type="submit">Save Profile</button>
+				<button id="reset-profile-btn" class="profile-btn profile-btn-secondary" type="button">Reset</button>
+				<p id="profile-status" class="profile-status" aria-live="polite">Profile not saved yet.</p>
+			</section>
+		</form>
+	</main>
+
+	<script>
+		const authUsername = document.getElementById("auth-username");
+		const authPin = document.getElementById("auth-pin");
+		const authLoginBtn = document.getElementById("auth-login-btn");
+		const authRegisterBtn = document.getElementById("auth-register-btn");
+		const authLogoutBtn = document.getElementById("auth-logout-btn");
+		const authStatus = document.getElementById("auth-status");
+		const profileForm = document.getElementById("profile-form");
+		const resetProfileBtn = document.getElementById("reset-profile-btn");
+		const profileStatus = document.getElementById("profile-status");
+
+		function getProfileStorageKey() {
+			return window.FitnessAuth.getUserKey("profile");
+		}
+
+		function getRedirectTarget() {
+			const params = new URLSearchParams(window.location.search);
+			const redirect = params.get("redirect");
+			if (!redirect || redirect === "page-5.html") {
+				return null;
+			}
+			return redirect;
+		}
+
+		function applyAuthState() {
+			const session = window.FitnessAuth.getSession();
+
+			if (!session) {
+				profileForm.hidden = true;
+				authLogoutBtn.hidden = true;
+				authPin.value = "";
+				profileStatus.textContent = "Log in to manage profile settings.";
+				return;
+			}
+
+			profileForm.hidden = false;
+			authLogoutBtn.hidden = false;
+			authStatus.textContent = `Signed in as ${session.username}.`;
+			loadProfile();
+		}
+
+		function handleAuthResult(result) {
+			authStatus.textContent = result.message;
+			if (!result.ok) {
+				return;
+			}
+
+			applyAuthState();
+			const redirect = getRedirectTarget();
+			if (redirect) {
+				window.location.href = redirect;
+			}
+		}
+
+		function loadProfile() {
+			const profileStorageKey = getProfileStorageKey();
+			if (!profileStorageKey) {
+				return;
+			}
+
+			const saved = localStorage.getItem(profileStorageKey);
+			profileForm.reset();
+			if (!saved) {
+				profileStatus.textContent = "No saved profile yet for this account.";
+				return;
+			}
+
+			const profileData = JSON.parse(saved);
+			Object.entries(profileData).forEach(([key, value]) => {
+				const field = profileForm.elements.namedItem(key);
+				if (field) {
+					field.value = value;
+				}
+			});
+
+			profileStatus.textContent = "Saved profile loaded.";
+		}
+
+		authLoginBtn.addEventListener("click", () => {
+			authUsername.setCustomValidity("");
+			authPin.setCustomValidity("");
+
+			if (!authUsername.value.trim()) {
+				authUsername.setCustomValidity("Enter your username.");
+				authUsername.reportValidity();
+				return;
+			}
+
+			if (!authPin.value.trim()) {
+				authPin.setCustomValidity("Enter your PIN.");
+				authPin.reportValidity();
+				return;
+			}
+
+			if (!authPin.checkValidity()) {
+				authPin.reportValidity();
+				return;
+			}
+
+			const result = window.FitnessAuth.loginUser(authUsername.value, authPin.value);
+			handleAuthResult(result);
+		});
+
+		authRegisterBtn.addEventListener("click", () => {
+			authUsername.setCustomValidity("");
+			authPin.setCustomValidity("");
+
+			if (!authUsername.value.trim()) {
+				authUsername.setCustomValidity("Create a username.");
+				authUsername.reportValidity();
+				return;
+			}
+
+			if (!authPin.value.trim()) {
+				authPin.setCustomValidity("Create a PIN (4-8 digits).");
+				authPin.reportValidity();
+				return;
+			}
+
+			if (!authPin.checkValidity()) {
+				authPin.reportValidity();
+				return;
+			}
+
+			const result = window.FitnessAuth.registerUser(authUsername.value, authPin.value);
+			handleAuthResult(result);
+		});
+
+		authLogoutBtn.addEventListener("click", () => {
+			window.FitnessAuth.logout();
+			authStatus.textContent = "You have been logged out.";
+			applyAuthState();
+		});
+
+		profileForm.addEventListener("submit", (event) => {
+			event.preventDefault();
+
+			const profileStorageKey = getProfileStorageKey();
+			if (!profileStorageKey) {
+				profileStatus.textContent = "Log in before saving profile data.";
+				return;
+			}
+
+			if (!profileForm.reportValidity()) {
+				profileStatus.textContent = "Fix highlighted fields before saving.";
+				return;
+			}
+
+			const formData = new FormData(profileForm);
+			const profileData = {};
+			for (const [key, value] of formData.entries()) {
+				profileData[key] = value;
+			}
+
+			localStorage.setItem(profileStorageKey, JSON.stringify(profileData));
+			profileStatus.textContent = "Profile saved.";
+		});
+
+		resetProfileBtn.addEventListener("click", () => {
+			const profileStorageKey = getProfileStorageKey();
+			if (!profileStorageKey) {
+				profileStatus.textContent = "Log in before resetting profile data.";
+				return;
+			}
+
+			profileForm.reset();
+			localStorage.removeItem(profileStorageKey);
+			profileStatus.textContent = "Profile reset.";
+		});
+
+		if (new URLSearchParams(window.location.search).get("auth") === "required") {
+			authStatus.textContent = "Log in to continue to tracker pages.";
+		}
+
+		applyAuthState();
+	</script>
+	<script src="js/validation.js"></script>
+</body>
+</html>
