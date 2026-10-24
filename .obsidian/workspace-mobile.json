@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "723b905a561ab938",
+        "id": "c4213b83c18ae195",
         "type": "tabs",
         "children": [
           {
-            "id": "261b98f8ace45a22",
+            "id": "067664c3f954d1b0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chemistry/Unit 3 - Stoichiometry/3.2e Hydrated Compounds.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "3.2e Hydrated Compounds"
+              "title": "New tab"
             }
           }
         ]
@@ -171,8 +167,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "261b98f8ace45a22",
+  "active": "067664c3f954d1b0",
   "lastOpenFiles": [
+    "Chemistry/Unit 3 - Stoichiometry/3.2e Hydrated Compounds.md",
+    "Engineering Ethics/Case Anlysis 1/sketchpad-2026-10-22-18-09-08.svg",
     "Chemistry/Unit 3 - Stoichiometry/3.2b Percent Composition.md",
     "Chemistry/Unit 2- Elements and Compounds/2.4a Monoatomic ions.md",
     "Chemistry/Unit 2- Elements and Compounds/2.3d Naming Covalent Compounds.md",
@@ -207,7 +205,6 @@
     "Chemistry/images/Pasted image 20261015172734.png",
     "Chemistry/images/Pasted image 20261015171759.png",
     "Chemistry/images/Pasted image 20261015184935.png",
-    "Chemistry/images/Pasted image 20261015171214.png",
     "4.5e Titrations (part 2).md",
     "4.5b Preparing Solutions of Known Concentration.md",
     "Chapter 5 stuff.md",
@@ -217,8 +214,6 @@
     "Code/create_website/README.md",
     "Math/Linear Algebra/Length of a Vector.md",
     "Math/Linear Algebra/Topics/Easy/Adding vectors algebriacally and graphically.md",
-    "Math/Linear Algebra/Topics/Easy/Vector.md",
-    "Math/Linear Algebra/Topics/Easy/3 Dimension.md",
     "Untitled.canvas"
   ]
 }

@@ -21,7 +21,7 @@
   "strokePrediction": true,
   "booxMode": false,
   "einkHintOffered": false,
-  "scribbleHintOffered": false,
+  "scribbleHintOffered": true,
   "paperStyle": "none",
   "extendCanvasWhileScrolling": false,
   "hideStatusBarOnInkedNotes": false,
