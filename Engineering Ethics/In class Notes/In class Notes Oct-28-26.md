@@ -50,10 +50,10 @@ Who is responsible for adressing the EB problem
 - the tech companies who create and benefit financially from our use of their platforms 
 - internet advertisers (and the companies who hire them )
 - the government 
-- the meida/press
+- the media/press
 - software programmers
 - the System? recall meadows idea of syb-systems operating as intended but the largel system operatin in ways no one wants 
 
-Waht can we do about EB's
-"we ust actively adjust the increased likelihood of agreeent within our bubble \"
+What can we do about EB's
+"we just actively adjust the increased likelihood of agreement within our bubble \"
 in other words, we should use our knowledge and awareness of EB's to consciously expand our info sources (pop the bubble)
