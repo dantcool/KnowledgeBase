@@ -1,0 +1,148 @@
+{UTF-8}
+"AI/Chatbot Dependency"  = A FUNCTION OF( "AI/Chatbot Usage",Human Connection,Mental Distress\
+		)
+	~	
+	~		|
+
+"AI/Chatbot Usage"  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Emotional Attachment to AI/Chatbots"  = A FUNCTION OF( "AI/Chatbot Dependency")
+	~	
+	~		|
+
+Human Connection  = A FUNCTION OF( "Emotional Attachment to AI/Chatbots")
+	~	
+	~		|
+
+"Human/ Crisis Support"  = A FUNCTION OF( "AI/Chatbot Dependency",Safety Guardrails and Crisis Escalation\
+		)
+	~	
+	~		|
+
+Mental Distress  = A FUNCTION OF( "Human/ Crisis Support","User Emotional/Psychological Vulnerability"\
+		)
+	~	
+	~		|
+
+Mental health Issues  = A FUNCTION OF( Mental Distress)
+	~	
+	~		|
+
+Risk of Self harm or Suicide  = A FUNCTION OF( Mental health Issues)
+	~	
+	~		|
+
+Safety Guardrails and Crisis Escalation  = A FUNCTION OF( Risk of Self harm or Suicide\
+		)
+	~	
+	~		|
+
+"User Emotional/Psychological Vulnerability"  = A FUNCTION OF( "Validation from AI/Chatbot"\
+		)
+	~	
+	~		|
+
+"Validation from AI/Chatbot"  = A FUNCTION OF( "AI/Chatbot Dependency")
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,235,2
+10,1,"AI/Chatbot Usage",455,46,64,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,2,"Emotional Attachment to AI/Chatbots",614,446,54,36,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,3,"AI/Chatbot Dependency",390,227,48,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,4,Human Connection,674,167,72,36,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,5,1,3,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,6,3,2,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,7,2,4,0,0,45,0,1,192,0,255-0-0,|||0-0-0,1|(0,0)|
+1,8,4,3,0,0,45,0,1,192,0,255-0-0,|||0-0-0,1|(0,0)|
+10,9,"Validation from AI/Chatbot",226,75,58,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,10,"User Emotional/Psychological Vulnerability",92,202,87,36,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,11,3,9,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,12,9,10,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+10,13,Mental Distress,216,337,59,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,14,10,13,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,15,13,3,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+10,16,Mental health Issues,70,476,53,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,17,13,16,0,0,43,0,0,193,0,-1--1--1,,1|(0,0)|
+10,18,Risk of Self harm or Suicide,111,635,63,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,19,16,18,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+10,20,Safety Guardrails and Crisis Escalation,371,593,76,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,21,"Human/ Crisis Support",399,454,54,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,22,18,20,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,23,20,21,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,24,3,21,0,0,45,0,1,193,0,255-0-0,|||0-0-0,1|(0,0)|
+1,25,21,13,0,0,45,0,1,192,0,255-0-0,|||0-0-0,1|(0,0)|
+12,26,0,549,275,80,40,8,7,0,0,-1,0,0,0,0,0,0,0,0,0
+R1
+12,27,0,230,198,80,40,8,7,0,0,-1,0,0,0,0,0,0,0,0,0
+R2|<<NnN>>|
+12,28,0,335,340,80,40,8,7,0,0,-1,0,0,0,0,0,0,0,0,0
+R3|<<NnN>>|
+12,29,0,218,510,80,40,8,7,0,0,-1,0,0,0,0,0,0,0,0,0
+B1
+///---\\\
+:L<%^E!@
+5:"Human/ Crisis Support"
+19:235,0
+24:0
+25:0
+26:0
+23:0
+15:0,0,0,0,0,0
+27:0,
+34:0,
+130:1
+129:1
+42:1
+72:0
+73:0
+95:0
+96:0
+97:0
+77:0
+78:0
+102:1
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:
+103:8,8,8,3,8
+105:0,0,0,0,0,0,0,0,0,0
+104:Vensim Sans|12||0-0-0|0-0-0|-1--1--1|0-0-255|192-192-192|-1--1--1
+128:0
